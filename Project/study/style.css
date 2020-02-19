@@ -10,11 +10,23 @@ button{
 }
 body{
 	background-color: #F3F5F7;
-	height: 3000px;
 }
 
 a{
 	text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+
+.clearfix{
+	*zoom:1;
 }
 
 .w{
@@ -181,6 +193,143 @@ a{
 .goods{
 	margin-top: 10px;
 	height: 60px;
+	line-height: 60px;
 	background-color: #fff;
 	box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+.goods h3{
+	float: left;
+	font-size: 16px;
+	color: #00a4ff;
+	margin:0 30px;
+}
+
+.goods-item{
+	float: left;
+	color: #ccc;
+}
+
+.goods-item a{
+	font-size: 16px;
+	margin: 0 30px;
+	color: #050505;
+}
+
+.goods-mod{
+	float: right;
+	font-size: 14px;
+	font-weight: bold;
+	color: #00a4ff;
+	margin-right: 30px;
+}
+
+.box{
+	margin-top: 15px;
+}
+
+.box-hd{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+}
+
+.box-hd h3{
+	float: left;
+	font-size: 200x;
+	color: #494949;
+	font-weight: normal;
+}
+
+.box-hd a{
+	float: right;
+	font-size: 12px;
+	color: #ccc;
+	margin-right: 30px;
+}
+
+.box-bd{
+	width: 1215px;
+}
+
+.box-bd li{
+	float: left;
+	width: 228px;
+	height: 270px;
+	background-color: #fff;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	box-shadow: rgba(0,0,0,.3);
+}
+
+.box-bd li img{
+	width: 100%;
+}
+
+.box-bd li h4{
+	margin: 20px;
+	font-size: 14px;
+	color: #050505;
+	font-weight: 400;
+}
+
+.box-bd li p{
+	margin: 0 20px;
+	font-size: 12px;
+	color: #999;
+}
+
+.box-bd p span{
+	color: orange;
+}
+
+.footer{
+	height: 385px;
+	padding-top: 30px;
+	background-color: #fff;
+}
+
+.copyright{
+	float: left;
+}
+
+.copyright p{
+	font-size: 12px;
+	color: #666;
+	margin: 20px 0 15px 0;
+}
+
+.app{
+	display: block;
+	width: 118px;
+	height: 34px;
+	border: 1px solid #00a4ff;
+	line-height: 34px;
+	font-size: 16px;
+	color: #00a4ff;
+	text-align: center;
+}
+
+.links{
+	float: right;
+}
+
+.links dl{
+	float: left;
+	margin-left: 100px;
+}
+
+.links dt{
+	height: 35px;
+	font-size: 16px;
+	color: #333;
+}
+
+.links dd a{
+	font-size: 12px;
+	color: #333;
+}
+
+.links dd a:hover{
+	color: #00a4ff;
 }
