@@ -34,6 +34,17 @@ a{
 	margin: auto;
 }
 
+.fixedbar{
+	position: fixed;
+	top: 200px;
+	left: 50%;
+	margin-left: -790px;
+	width: 180px;
+	height: 420px;
+	background-color: #fff;
+	z-index: 999;
+}
+
 .header {
 	height: 42px;
 	/*background: pink;*/
@@ -253,6 +264,7 @@ a{
 }
 
 .box-bd li{
+	position: relative;
 	float: left;
 	width: 228px;
 	height: 270px;
@@ -264,6 +276,13 @@ a{
 
 .box-bd li img{
 	width: 100%;
+}
+
+.box-bd .hot{
+	position: absolute;
+	width: 40px;
+	top: 0;
+	right: -4px;
 }
 
 .box-bd li h4{
