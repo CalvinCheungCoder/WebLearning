@@ -216,6 +216,7 @@
 .tab-cont li{
 	float: left;
 	height: 361px;
+	overflow: hidden;
 }
 
 .w209{
@@ -251,4 +252,27 @@
 	margin-left: 10px;
 	text-align: center;
 
+}
+
+.fixedtool{
+	position: fixed;
+	top: 500px;
+	left: 50%;
+	margin-left: -676px;
+	width: 66px;
+	background-color: #fff;
+}
+
+.fixedtool li{
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.fixedtool .current{
+	background-color: #c81623;
+	color: #fff;
 }
